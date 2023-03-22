@@ -29,7 +29,7 @@ install:
   - ls -l
   - ls bin/ -l
   - gem install dpl --pre
-  - dpl releases --token $GITHUB_TOKEN --file "bin/Сurrencyconverter-0.1-armeabi-v7a-debug.apk" --tag_name "v.0.1"
+  - dpl releases --token $GITHUB --file "bin/Сurrencyconverter-0.1-armeabi-v7a-debug.apk" --tag_name "v.0.1"
   - echo "TODO COMPILE 64bit"
   - ls -l /home/travis/
   - rm -R /home/travis/.buildozer

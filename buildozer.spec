@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = Сonverter
+title = Converter
 
 # (str) Package name
-package.name = Сurrency converter
+package.name = Converter
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.lord
